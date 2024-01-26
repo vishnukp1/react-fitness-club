@@ -60,7 +60,21 @@
     width: 17rem;
     height: 19rem;
     border:2px solid orange;
-    background-color: var(--planCard);
+    background: var(--planCard);
     right: 7rem;
     top: 4rem;
+}
+.arrows{
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    bottom: 1rem;
+    left: 3rem;
+
+}
+
+.arrows>img{
+ width: 1.5rem;
+ cursor: pointer;
+
 }

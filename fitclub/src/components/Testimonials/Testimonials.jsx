@@ -28,10 +28,23 @@ function Testimonials() {
         <img src={testimonialsData[seleted].image} alt="" />
         <div className="arrows">
           <img
+            onClick={() => {
+              seleted === 0
+                ? setSeleted(tlength - 1)
+                : setSeleted((prev) => prev - 1);
+            }}
             src={leftArrow}
             alt=""
           />
-          <img src={rightArrow} alt="" />
+          <img
+            onClick={() => {
+              seleted === tlength - 1
+                ? setSeleted(0)
+                : setSeleted((prev) => prev + 1);
+            }}
+            src={rightArrow}
+            alt=""
+          />
         </div>
       </div>
     </div>
