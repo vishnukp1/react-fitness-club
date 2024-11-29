@@ -7,11 +7,11 @@ function Join() {
         <hr />
         <div>
           <span className="stroke-text">READY TO</span>
-          <span> LEVEL UP</span>
+          <span> ABOUT US</span>
         </div>
 
         <div>
-          <span>YOUR BODY</span>
+          <span>CONTANT US</span>
           <span className="stroke-text"> WITH US?</span>
         </div>
       </div>

@@ -20,7 +20,7 @@ function Footer() {
           <img src={Logo} alt="" />
         </div>
 
-        <div className="blur blur-f-1"></div>
+        <div className="blur blur-f-1">DETAILS</div>
         <div className="blur blur-f-2"></div>
       </div>
     </div>

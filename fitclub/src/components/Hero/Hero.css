@@ -49,17 +49,7 @@
   color: white;
   text-overflow: inherit;
 }
-.hero-text > div:nth-of-type(3) {
-  font-size: 1rem;
-  font-weight: 200;
-  text-transform: none;
-  letter-spacing: 2px;
-  width: 80%;
-}
-.figures {
-  display: flex;
-  gap: 2rem;
-}
+
 .figures > div {
   display: flex;
   flex-direction: column;
